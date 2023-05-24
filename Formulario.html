@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Ingreso de datos</h1>
+    <form>
+        <div>
+            <fieldset>
+            <legend>Datos Personales:</legend>
+            <label for="nombres">Nombres:</label><br>
+            <input type="text" id="nombres" name="nombres"><br>
+            <br>
+            <label for="apellidos">Apellidos:</label><br>
+            <input type="text" id="apellidos" name="apellidos"><br>
+            <br>
+            <label for="Cedula, RUC o Pasaporte">Cedula,RUC o Pasaporte:</label><br>
+            <input type="text" id="Cedula, RUC o Pasaporte" name="Cedula, RUC o Pasaporte" maxlength="10"><br>
+            <br>
+            <label for="correo">Correo:</label><br>
+            <input type="text" id="correo" name="correo"><br>
+            <br>
+            <label for="telefono">Telefono:</label><br>
+            <input type="text" id="telefono" name="telefono" maxlength="10"><br>
+            <br>
+            <label for="direccion">Dirección:</label><br>
+            <input type="text" id="direccion" name="direccion" ><br>
+            <br>
+            <label for="estado civil">Estado civil:</label><br>
+            <input type="text" id="estado civil" name="estado civil"><br>
+            <br>
+            <labelable for="Sexo">Sexo:</labelable><br>
+            <input type="radio" id="masculino" name="fav_language" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="fav_language" value="Femenino">
+            <label for="femenino">Femenino</label><br>
+            <br>
+            <label for="nivel academico">Nivel academico:</label>
+            <select id="nivel academico" name="nivel academico">
+                <option value="1">Primaria</option>
+                <option value="2">Secundaria</option>
+                <option value="3">Universitario</option>
+                <option value="4">Ninguna de las anteriores</option>
+            </select>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
